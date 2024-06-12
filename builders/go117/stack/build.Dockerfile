@@ -14,7 +14,7 @@
 
 ARG from_image
 #FROM ${from_image}
-FROM --platform=linux/amd64 go117common:latest
+FROM  go117common:latest
 #COPY licenses/ /usr/local/share/licenses/buildpacks/
 
 # build-essential is required by many usecases.
